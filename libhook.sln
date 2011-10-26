@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhook", "libhook.vcxproj", "{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC} = {4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distorm3", "src\extern\distorm3\distorm3.vcxproj", "{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extern", "extern", "{83035EFF-4324-48E6-985C-F590616B3322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Debug|Win32.Build.0 = Debug|Win32
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Debug|x64.ActiveCfg = Debug|x64
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Debug|x64.Build.0 = Debug|x64
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Release|Win32.ActiveCfg = Release|Win32
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Release|Win32.Build.0 = Release|Win32
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Release|x64.ActiveCfg = Release|x64
+		{C80F5ACF-E3A5-4FD7-9A8F-8864BB5C8AEE}.Release|x64.Build.0 = Release|x64
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Debug|Win32.Build.0 = Debug|Win32
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Debug|x64.ActiveCfg = Debug|x64
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Debug|x64.Build.0 = Debug|x64
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Release|Win32.ActiveCfg = Release|Win32
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Release|Win32.Build.0 = Release|Win32
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Release|x64.ActiveCfg = Release|x64
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ABBFB0C-11E9-4DC2-AF7A-5DFABF5A34DC} = {83035EFF-4324-48E6-985C-F590616B3322}
+	EndGlobalSection
+EndGlobal

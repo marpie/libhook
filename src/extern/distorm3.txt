@@ -1,0 +1,3 @@
+Get the source of distorm3 from GoogleCode.
+
+svn checkout http://distorm.googlecode.com/svn/trunk/ distorm3

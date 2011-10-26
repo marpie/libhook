@@ -1,0 +1,13 @@
+*.exe
+*.dll
+*.suo
+*.user
+*.ncb
+*.bak
+*.sdf
+*.opensdf
+bin/Win32/*
+bin/x64/*
+build/*
+ipch/*
+src/extern/distorm3/*
